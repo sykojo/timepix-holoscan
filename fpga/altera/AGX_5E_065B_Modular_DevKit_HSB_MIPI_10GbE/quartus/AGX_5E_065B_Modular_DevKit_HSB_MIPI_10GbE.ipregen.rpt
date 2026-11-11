@@ -1,0 +1,921 @@
+IP Upgrade report for AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE
+Wed Nov 11 14:40:35 2026
+Quartus Prime Version 26.1.1 Build 130 08/06/2026 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2026  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++---------------------------------------------------------------------------+
+; IP Upgrade Summary                                                        ;
++------------------------------+--------------------------------------------+
+; IP Components Upgrade Status ; Passed - Wed Nov 11 14:40:35 2026          ;
+; Quartus Prime Version        ; 26.1.1 Build 130 08/06/2026 SC Pro Edition ;
+; Revision Name                ; AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE  ;
+; Top-level Entity Name        ; AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE  ;
+; Family                       ; Agilex 5                                   ;
++------------------------------+--------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                                                                                                                                                                          ;
++----------------------------------------+-----------------+---------+--------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-----------------+---------+
+; Entity Name                            ; Component Name  ; Version ; Original Source File                                                                 ; Generation File Path                                                                 ; New Source File ; Message ;
++----------------------------------------+-----------------+---------+--------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-----------------+---------+
+; gts_eth_subsystem_eth_gts              ; intel_eth_gts   ; 12.0.0  ; ../rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.ip                        ; ../rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.ip                        ;                 ;         ;
+; gts_eth_subsystem_eth_srcss_gts        ; intel_srcss_gts ; 5.0.1   ; ../rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.ip                  ; ../rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.ip                  ;                 ;         ;
+; mipi_hsb_pipeline_subsystem_vvp_fifo_0 ; intel_vvp_fifo  ; 24.4.0  ; ../rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.ip ; ../rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.ip ;                 ;         ;
+; mipi_hsb_pipeline_subsystem_vvp_fifo_1 ; intel_vvp_fifo  ; 24.4.0  ; ../rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.ip ; ../rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.ip ;                 ;         ;
+; mipi_subsystem_intel_mipi_csi2_0       ; intel_mipi_csi2 ; 3.1.0   ; ../rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.ip                    ; ../rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.ip                    ;                 ;         ;
+; mipi_subsystem_intel_mipi_csi2_1       ; intel_mipi_csi2 ; 3.1.0   ; ../rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.ip                    ; ../rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.ip                    ;                 ;         ;
+; mipi_subsystem_mipi_dphy               ; mipi_dphy       ; 6.2.0   ; ../rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy.ip                            ; ../rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy.ip                            ;                 ;         ;
+; mipi_subsystem_mipi_mm_ccb             ; mm_ccb          ; 19.4.0  ; ../rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.ip                          ; ../rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.ip                          ;                 ;         ;
++----------------------------------------+-----------------+---------+--------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-----------------+---------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.ip" to "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.BAK.ip"
+Info (11902): Backing up file "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.ip" to "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.BAK.ip"
+Info (11902): Backing up file "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.ip" to "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.BAK.ip"
+Info (11902): Backing up file "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.ip" to "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.BAK.ip"
+Info (11902): Backing up file "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.ip" to "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.BAK.ip"
+Info (11902): Backing up file "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.ip" to "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.BAK.ip"
+Info (11902): Backing up file "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy.ip" to "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy.BAK.ip"
+Info (11902): Backing up file "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.ip" to "/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.BAK.ip"
+Info (20325): ***************************************************************
+Info (20325): Quartus is a registered trademark of Altera Corporation in the
+Info (20325): US and other countries.  Portions of the Quartus Prime software
+Info (20325): code, and other portions of the code included in this download
+Info (20325): or on this DVD, are licensed to Altera Corporation and are the
+Info (20325): copyrighted property of third parties. For license details,
+Info (20325): refer to the Altera Software License Subscription Agreements
+Info (20325): on the Quartus Prime software download page.
+Info (20325): ***************************************************************
+Info (20325): 2026.11.11.14:39:26 Info: Batch generation will generate the listed files in this order: /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.ip, ../rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.ip, ../rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.ip, ../rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.ip, ../rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.ip, ../rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.ip, ../rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy.ip, ../rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.ip
+Info (20325): Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): chk_revision MAIN_SM7_REVB
+Info (20325): Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): chk_revision MAIN_SM7_REVB
+Info (20325): Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:39:36 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2026.11.11.14:39:36 Info: Finished upgrading the ip cores
+Info (20325): 2026.11.11.14:39:37 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2026.11.11.14:39:37 Info: Finished upgrading the ip cores
+Info (20325): 2026.11.11.14:39:37 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2026.11.11.14:39:37 Info: Finished upgrading the ip cores
+Info (20325): 2026.11.11.14:39:38 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2026.11.11.14:39:38 Info: Finished upgrading the ip cores
+Info (20325): 2026.11.11.14:39:38 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2026.11.11.14:39:38 Info: Finished upgrading the ip cores
+Info (20325): 2026.11.11.14:39:38 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2026.11.11.14:39:38 Info: Finished upgrading the ip cores
+Info (20325): 2026.11.11.14:39:41 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2026.11.11.14:39:41 Info: Finished upgrading the ip cores
+Info (20325): 2026.11.11.14:39:42 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2026.11.11.14:39:42 Info: Finished upgrading the ip cores
+Info (20325): ***************************************************************
+Info (20325): Quartus is a registered trademark of Altera Corporation in the
+Info (20325): US and other countries.  Portions of the Quartus Prime software
+Info (20325): code, and other portions of the code included in this download
+Info (20325): or on this DVD, are licensed to Altera Corporation and are the
+Info (20325): copyrighted property of third parties. For license details,
+Info (20325): refer to the Altera Software License Subscription Agreements
+Info (20325): on the Quartus Prime software download page.
+Info (20325): ***************************************************************
+Info (20325): 2026.11.11.14:39:42 Info: Batch generation will generate the listed files in this order: /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.ip, ../rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.ip, ../rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.ip, ../rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.ip, ../rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.ip, ../rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.ip, ../rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.ip
+Info (20325): Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): chk_revision MAIN_SM7_REVB
+Info (20325): Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): chk_revision MAIN_SM7_REVB
+Info (20325): Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:39:55 Info: Parallel IP Generation is enabled.
+Info (20325): 2026.11.11.14:39:55 Info: Platform Designer will attempt to use 6 processors for parallel IP generation based on available number of processors and the total number of IP to be generated.
+Info (20325): 2026.11.11.14:39:55 Info:
+Info (20325): 2026.11.11.14:39:55 Info: Starting: Platform Designer system generation
+Info (20325): 2026.11.11.14:40:04 Info:
+Info (20325): 2026.11.11.14:40:04 Info: Generating on localhost:41113
+Info (20325): 2026.11.11.14:40:04 Info: Saving generation log to /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/mipi_hsb_pipeline_subsystem_vvp_fifo_0_generation.rpt
+Info (20325): 2026.11.11.14:40:04 Info: Generated by version: 26.1.1 build 130
+Info (20325): 2026.11.11.14:40:04 Info: Starting: Create simulation model
+Info (20325): 2026.11.11.14:40:04 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Transforming system: mipi_hsb_pipeline_subsystem_vvp_fifo_0"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Naming system components in system: mipi_hsb_pipeline_subsystem_vvp_fifo_0"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Generating: mipi_hsb_pipeline_subsystem_vvp_fifo_0"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Generating: mipi_hsb_pipeline_subsystem_vvp_fifo_0_intel_vvp_fifo_2450_jx72qti"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Generating: intel_vvp_reset_sync"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Generating: intel_vvp_fifo_core"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: Done "mipi_hsb_pipeline_subsystem_vvp_fifo_0" with 4 modules, 58 files
+Warning (20326): 2026.11.11.14:40:04 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:04 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:04 Info: common/riviera_files.tcl
+Info (20325): 2026.11.11.14:40:04 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:04 Info: common/xcelium_files.tcl
+Info (20325): 2026.11.11.14:40:04 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:04 Info: common/modelsim_files.tcl
+Info (20325): 2026.11.11.14:40:04 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:04 Info: common/vcsmx_files.tcl
+Info (20325): 2026.11.11.14:40:04 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/sim/.
+Info (20325): 2026.11.11.14:40:04 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:04 Info: Finished: Create simulation model
+Info (20325): 2026.11.11.14:40:04 Info: Starting: Create simulation script
+Info (20325): 2026.11.11.14:40:04 Info: sim-script-gen --system-file=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.ip --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/sim/ --use-relative-paths=true
+Warning (20326): 2026.11.11.14:40:04 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:04 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:04 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:04 Info: aldec/run_rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:04 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:04 Info: xcelium/cds.lib
+Info (20325): 2026.11.11.14:40:04 Info: xcelium/hdl.var
+Info (20325): 2026.11.11.14:40:04 Info: xcelium/xcelium_setup.sh
+Info (20325): 2026.11.11.14:40:04 Info: 6 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2026.11.11.14:40:04 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:04 Info: mentor/msim_setup.tcl
+Info (20325): 2026.11.11.14:40:04 Info: mentor/run_msim_setup.tcl
+Info (20325): 2026.11.11.14:40:04 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:04 Info: synopsys/vcsmx/_device_synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:04 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:04 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2026.11.11.14:40:04 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0/sim/.
+Info (20325): 2026.11.11.14:40:04 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:04 Info: Finished: Create simulation script
+Info (20325): 2026.11.11.14:40:04 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:04 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.ip --block-symbol-file --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:04 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:04 Info:
+Info (20325): 2026.11.11.14:40:04 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:04 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.ip --synthesis=VERILOG --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Transforming system: mipi_hsb_pipeline_subsystem_vvp_fifo_0"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Naming system components in system: mipi_hsb_pipeline_subsystem_vvp_fifo_0"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Generating: mipi_hsb_pipeline_subsystem_vvp_fifo_0"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Generating: mipi_hsb_pipeline_subsystem_vvp_fifo_0_intel_vvp_fifo_2450_jx72qti"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Generating: intel_vvp_reset_sync"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: "Generating: intel_vvp_fifo_core"
+Info (20325): 2026.11.11.14:40:04 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_0: Done "mipi_hsb_pipeline_subsystem_vvp_fifo_0" with 4 modules, 17 files
+Info (20325): 2026.11.11.14:40:04 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:04 Info: Generation of /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.ip (mipi_hsb_pipeline_subsystem_vvp_fifo_0) took 1741 ms
+Info (20325): 2026.11.11.14:40:05 Info:
+Info (20325): 2026.11.11.14:40:05 Info: Generating on localhost:44511
+Info (20325): 2026.11.11.14:40:05 Info: Saving generation log to /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/mipi_subsystem_mipi_mm_ccb_generation.rpt
+Info (20325): 2026.11.11.14:40:05 Info: Generated by version: 26.1.1 build 130
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create simulation model
+Info (20325): 2026.11.11.14:40:05 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Transforming system: mipi_subsystem_mipi_mm_ccb"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Naming system components in system: mipi_subsystem_mipi_mm_ccb"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Generating: mipi_subsystem_mipi_mm_ccb"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Generating: mipi_subsystem_mipi_mm_ccb_mm_ccb_1941_mleuw5a"
+Info (20325): 2026.11.11.14:40:05 Info: my_altera_avalon_dc_fifo_cmd_fifo: "Generating: my_altera_avalon_dc_fifo_cmd_fifo"
+Info (20325): 2026.11.11.14:40:05 Info: my_altera_avalon_dc_fifo_rsp_fifo: "Generating: my_altera_avalon_dc_fifo_rsp_fifo"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Generating: mipi_subsystem_mipi_mm_ccb_mm_ccb_st_dc_fifo_1941_zfiyhva"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Generating: mipi_subsystem_mipi_mm_ccb_mm_ccb_st_dc_fifo_1941_nndkhna"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Generating: mipi_subsystem_mipi_mm_ccb_st_dc_fifo_1953_3qfelpa"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: Done "mipi_subsystem_mipi_mm_ccb" with 5 modules, 8 files
+Warning (20326): 2026.11.11.14:40:05 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/riviera_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/modelsim_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/vcsmx_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/xcelium_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/sim/.
+Info (20325): 2026.11.11.14:40:05 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create simulation model
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create simulation script
+Info (20325): 2026.11.11.14:40:05 Info: sim-script-gen --system-file=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.ip --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/sim/ --use-relative-paths=true
+Warning (20326): 2026.11.11.14:40:05 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: aldec/run_rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: mentor/msim_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: mentor/run_msim_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: synopsys/vcsmx/_device_synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:05 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:05 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: xcelium/cds.lib
+Info (20325): 2026.11.11.14:40:05 Info: xcelium/hdl.var
+Info (20325): 2026.11.11.14:40:05 Info: xcelium/xcelium_setup.sh
+Info (20325): 2026.11.11.14:40:05 Info: 4 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2026.11.11.14:40:05 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb/sim/.
+Info (20325): 2026.11.11.14:40:05 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create simulation script
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:05 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.ip --block-symbol-file --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:05 Info:
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:05 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.ip --synthesis=VERILOG --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Transforming system: mipi_subsystem_mipi_mm_ccb"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Naming system components in system: mipi_subsystem_mipi_mm_ccb"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Generating: mipi_subsystem_mipi_mm_ccb"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Generating: mipi_subsystem_mipi_mm_ccb_mm_ccb_1941_mleuw5a"
+Info (20325): 2026.11.11.14:40:05 Info: my_altera_avalon_dc_fifo_cmd_fifo: "Generating: my_altera_avalon_dc_fifo_cmd_fifo"
+Info (20325): 2026.11.11.14:40:05 Info: my_altera_avalon_dc_fifo_rsp_fifo: "Generating: my_altera_avalon_dc_fifo_rsp_fifo"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Generating: mipi_subsystem_mipi_mm_ccb_mm_ccb_st_dc_fifo_1941_zfiyhva"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Generating: mipi_subsystem_mipi_mm_ccb_mm_ccb_st_dc_fifo_1941_nndkhna"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: "Generating: mipi_subsystem_mipi_mm_ccb_st_dc_fifo_1953_3qfelpa"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_mipi_mm_ccb: Done "mipi_subsystem_mipi_mm_ccb" with 5 modules, 9 files
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:05 Info: Generation of /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.ip (mipi_subsystem_mipi_mm_ccb) took 1934 ms
+Info (20325): 2026.11.11.14:40:05 Info:
+Info (20325): 2026.11.11.14:40:05 Info: Generating on localhost:46125
+Info (20325): 2026.11.11.14:40:05 Info: Saving generation log to /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/mipi_subsystem_intel_mipi_csi2_0_generation.rpt
+Info (20325): 2026.11.11.14:40:05 Info: Generated by version: 26.1.1 build 130
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create simulation model
+Info (20325): 2026.11.11.14:40:05 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0.intel_mipi_csi2_0: Only enable the video data types that you are using to save logic resources.
+Info (20325): 2026.11.11.14:40:05 Info: intel_mipi_csi2_0.cv2axi.csr_rst_controller: Deassert with RESET_REQUEST_PRESENT will have Minimum of 4 cycles difference between assertion of reset_req to reset_out
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Transforming system: mipi_subsystem_intel_mipi_csi2_0"
+Info (20325): 2026.11.11.14:40:05 Info: Interconnect is inserted between master ro_reg_servicer.av_mm_master and slave cv2axi_core.av because the master has address signal 10 bit wide, but the slave is 8 bit wide.
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Naming system components in system: mipi_subsystem_intel_mipi_csi2_0"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_intel_mipi_csi2_400_zy2veca"
+Info (20325): 2026.11.11.14:40:05 Info: cv2axi: "Generating: cv2axi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_intel_mipi_csi2_intel_cv2axi_400_4ikwq2y"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_intel_cv2axi_2140_tureozi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: intel_cv2axi_core"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: altera_reset_controller"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_intel_vvp_ro_reg_servicer_2470_hnni7sy"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: intel_vvp_output_interface_bridge"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_altera_mm_interconnect_1920_ykn3kzi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_altera_merlin_master_translator_193_lgcew2q"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_altera_merlin_slave_translator_191_xg7rzxi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: Done "mipi_subsystem_intel_mipi_csi2_0" with 11 modules, 190 files
+Warning (20326): 2026.11.11.14:40:05 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/modelsim_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/vcsmx_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/riviera_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/xcelium_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/sim/.
+Info (20325): 2026.11.11.14:40:05 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create simulation model
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create simulation script
+Info (20325): 2026.11.11.14:40:05 Info: sim-script-gen --system-file=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.ip --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/sim/ --use-relative-paths=true
+Warning (20326): 2026.11.11.14:40:05 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: mentor/msim_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: mentor/run_msim_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: synopsys/vcsmx/_device_synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:05 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:05 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: aldec/run_rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: xcelium/cds.lib
+Info (20325): 2026.11.11.14:40:05 Info: xcelium/hdl.var
+Info (20325): 2026.11.11.14:40:05 Info: xcelium/xcelium_setup.sh
+Info (20325): 2026.11.11.14:40:05 Info: 12 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2026.11.11.14:40:05 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0/sim/.
+Info (20325): 2026.11.11.14:40:05 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create simulation script
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:05 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.ip --block-symbol-file --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0.intel_mipi_csi2_0: Only enable the video data types that you are using to save logic resources.
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:05 Info:
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:05 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.ip --synthesis=VERILOG --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0.intel_mipi_csi2_0: Only enable the video data types that you are using to save logic resources.
+Info (20325): 2026.11.11.14:40:05 Info: intel_mipi_csi2_0.cv2axi.csr_rst_controller: Deassert with RESET_REQUEST_PRESENT will have Minimum of 4 cycles difference between assertion of reset_req to reset_out
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Transforming system: mipi_subsystem_intel_mipi_csi2_0"
+Info (20325): 2026.11.11.14:40:05 Info: Interconnect is inserted between master ro_reg_servicer.av_mm_master and slave cv2axi_core.av because the master has address signal 10 bit wide, but the slave is 8 bit wide.
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Naming system components in system: mipi_subsystem_intel_mipi_csi2_0"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_intel_mipi_csi2_400_zy2veca"
+Info (20325): 2026.11.11.14:40:05 Info: cv2axi: "Generating: cv2axi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_intel_mipi_csi2_intel_cv2axi_400_4ikwq2y"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_intel_cv2axi_2140_tureozi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: intel_cv2axi_core"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: altera_reset_controller"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_intel_vvp_ro_reg_servicer_2470_hnni7sy"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: intel_vvp_output_interface_bridge"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_altera_mm_interconnect_1920_ykn3kzi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_altera_merlin_master_translator_193_lgcew2q"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: "Generating: mipi_subsystem_intel_mipi_csi2_0_altera_merlin_slave_translator_191_xg7rzxi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_0: Done "mipi_subsystem_intel_mipi_csi2_0" with 11 modules, 90 files
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:05 Info: Generation of /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.ip (mipi_subsystem_intel_mipi_csi2_0) took 2698 ms
+Info (20325): 2026.11.11.14:40:05 Info:
+Info (20325): 2026.11.11.14:40:05 Info: Generating on localhost:42899
+Info (20325): 2026.11.11.14:40:05 Info: Saving generation log to /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/mipi_subsystem_intel_mipi_csi2_1_generation.rpt
+Info (20325): 2026.11.11.14:40:05 Info: Generated by version: 26.1.1 build 130
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create simulation model
+Info (20325): 2026.11.11.14:40:05 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1.intel_mipi_csi2_1: Only enable the video data types that you are using to save logic resources.
+Info (20325): 2026.11.11.14:40:05 Info: intel_mipi_csi2_1.cv2axi.csr_rst_controller: Deassert with RESET_REQUEST_PRESENT will have Minimum of 4 cycles difference between assertion of reset_req to reset_out
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Transforming system: mipi_subsystem_intel_mipi_csi2_1"
+Info (20325): 2026.11.11.14:40:05 Info: Interconnect is inserted between master ro_reg_servicer.av_mm_master and slave cv2axi_core.av because the master has address signal 10 bit wide, but the slave is 8 bit wide.
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Naming system components in system: mipi_subsystem_intel_mipi_csi2_1"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_intel_mipi_csi2_400_zy2veca"
+Info (20325): 2026.11.11.14:40:05 Info: cv2axi: "Generating: cv2axi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_intel_mipi_csi2_intel_cv2axi_400_4ikwq2y"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_intel_cv2axi_2140_tureozi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: intel_cv2axi_core"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: altera_reset_controller"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_intel_vvp_ro_reg_servicer_2470_hnni7sy"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: intel_vvp_output_interface_bridge"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_altera_mm_interconnect_1920_ykn3kzi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_altera_merlin_master_translator_193_lgcew2q"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_altera_merlin_slave_translator_191_xg7rzxi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: Done "mipi_subsystem_intel_mipi_csi2_1" with 11 modules, 190 files
+Warning (20326): 2026.11.11.14:40:05 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/modelsim_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/vcsmx_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/riviera_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: common/xcelium_files.tcl
+Info (20325): 2026.11.11.14:40:05 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/sim/.
+Info (20325): 2026.11.11.14:40:05 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create simulation model
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create simulation script
+Info (20325): 2026.11.11.14:40:05 Info: sim-script-gen --system-file=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.ip --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/sim/ --use-relative-paths=true
+Warning (20326): 2026.11.11.14:40:05 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: mentor/msim_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: mentor/run_msim_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: synopsys/vcsmx/_device_synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:05 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:05 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: aldec/run_rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:05 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:05 Info: xcelium/cds.lib
+Info (20325): 2026.11.11.14:40:05 Info: xcelium/hdl.var
+Info (20325): 2026.11.11.14:40:05 Info: xcelium/xcelium_setup.sh
+Info (20325): 2026.11.11.14:40:05 Info: 12 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2026.11.11.14:40:05 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1/sim/.
+Info (20325): 2026.11.11.14:40:05 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create simulation script
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:05 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.ip --block-symbol-file --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1.intel_mipi_csi2_1: Only enable the video data types that you are using to save logic resources.
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:05 Info:
+Info (20325): 2026.11.11.14:40:05 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:05 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.ip --synthesis=VERILOG --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1.intel_mipi_csi2_1: Only enable the video data types that you are using to save logic resources.
+Info (20325): 2026.11.11.14:40:05 Info: intel_mipi_csi2_1.cv2axi.csr_rst_controller: Deassert with RESET_REQUEST_PRESENT will have Minimum of 4 cycles difference between assertion of reset_req to reset_out
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Transforming system: mipi_subsystem_intel_mipi_csi2_1"
+Info (20325): 2026.11.11.14:40:05 Info: Interconnect is inserted between master ro_reg_servicer.av_mm_master and slave cv2axi_core.av because the master has address signal 10 bit wide, but the slave is 8 bit wide.
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Naming system components in system: mipi_subsystem_intel_mipi_csi2_1"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_intel_mipi_csi2_400_zy2veca"
+Info (20325): 2026.11.11.14:40:05 Info: cv2axi: "Generating: cv2axi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_intel_mipi_csi2_intel_cv2axi_400_4ikwq2y"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_intel_cv2axi_2140_tureozi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: intel_cv2axi_core"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: altera_reset_controller"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_intel_vvp_ro_reg_servicer_2470_hnni7sy"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: intel_vvp_output_interface_bridge"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_altera_mm_interconnect_1920_ykn3kzi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_altera_merlin_master_translator_193_lgcew2q"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: "Generating: mipi_subsystem_intel_mipi_csi2_1_altera_merlin_slave_translator_191_xg7rzxi"
+Info (20325): 2026.11.11.14:40:05 Info: mipi_subsystem_intel_mipi_csi2_1: Done "mipi_subsystem_intel_mipi_csi2_1" with 11 modules, 90 files
+Info (20325): 2026.11.11.14:40:05 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:05 Info: Generation of /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.ip (mipi_subsystem_intel_mipi_csi2_1) took 2673 ms
+Info (20325): 2026.11.11.14:40:06 Info:
+Info (20325): 2026.11.11.14:40:06 Info: Generating on localhost:41113
+Info (20325): 2026.11.11.14:40:06 Info: Saving generation log to /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/mipi_hsb_pipeline_subsystem_vvp_fifo_1_generation.rpt
+Info (20325): 2026.11.11.14:40:06 Info: Generated by version: 26.1.1 build 130
+Info (20325): 2026.11.11.14:40:06 Info: Starting: Create simulation model
+Info (20325): 2026.11.11.14:40:06 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Transforming system: mipi_hsb_pipeline_subsystem_vvp_fifo_1"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Naming system components in system: mipi_hsb_pipeline_subsystem_vvp_fifo_1"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Generating: mipi_hsb_pipeline_subsystem_vvp_fifo_1"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Generating: mipi_hsb_pipeline_subsystem_vvp_fifo_1_intel_vvp_fifo_2450_jx72qti"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Generating: intel_vvp_reset_sync"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Generating: intel_vvp_fifo_core"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: Done "mipi_hsb_pipeline_subsystem_vvp_fifo_1" with 4 modules, 58 files
+Warning (20326): 2026.11.11.14:40:06 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:06 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:06 Info: common/riviera_files.tcl
+Info (20325): 2026.11.11.14:40:06 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:06 Info: common/xcelium_files.tcl
+Info (20325): 2026.11.11.14:40:06 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:06 Info: common/modelsim_files.tcl
+Info (20325): 2026.11.11.14:40:06 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:06 Info: common/vcsmx_files.tcl
+Info (20325): 2026.11.11.14:40:06 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/sim/.
+Info (20325): 2026.11.11.14:40:06 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:06 Info: Finished: Create simulation model
+Info (20325): 2026.11.11.14:40:06 Info: Starting: Create simulation script
+Info (20325): 2026.11.11.14:40:06 Info: sim-script-gen --system-file=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.ip --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/sim/ --use-relative-paths=true
+Warning (20326): 2026.11.11.14:40:06 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:06 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:06 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:06 Info: aldec/run_rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:06 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:06 Info: xcelium/cds.lib
+Info (20325): 2026.11.11.14:40:06 Info: xcelium/hdl.var
+Info (20325): 2026.11.11.14:40:06 Info: xcelium/xcelium_setup.sh
+Info (20325): 2026.11.11.14:40:06 Info: 6 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2026.11.11.14:40:06 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:06 Info: mentor/msim_setup.tcl
+Info (20325): 2026.11.11.14:40:06 Info: mentor/run_msim_setup.tcl
+Info (20325): 2026.11.11.14:40:06 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/sim/ directory:
+Info (20325): 2026.11.11.14:40:06 Info: synopsys/vcsmx/_device_synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:06 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:06 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2026.11.11.14:40:06 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1/sim/.
+Info (20325): 2026.11.11.14:40:06 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:06 Info: Finished: Create simulation script
+Info (20325): 2026.11.11.14:40:06 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:06 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.ip --block-symbol-file --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:06 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:06 Info:
+Info (20325): 2026.11.11.14:40:06 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:06 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.ip --synthesis=VERILOG --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1 --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Transforming system: mipi_hsb_pipeline_subsystem_vvp_fifo_1"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Naming system components in system: mipi_hsb_pipeline_subsystem_vvp_fifo_1"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Generating: mipi_hsb_pipeline_subsystem_vvp_fifo_1"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Generating: mipi_hsb_pipeline_subsystem_vvp_fifo_1_intel_vvp_fifo_2450_jx72qti"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Generating: intel_vvp_reset_sync"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: "Generating: intel_vvp_fifo_core"
+Info (20325): 2026.11.11.14:40:06 Info: mipi_hsb_pipeline_subsystem_vvp_fifo_1: Done "mipi_hsb_pipeline_subsystem_vvp_fifo_1" with 4 modules, 17 files
+Info (20325): 2026.11.11.14:40:06 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:06 Info: Generation of /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.ip (mipi_hsb_pipeline_subsystem_vvp_fifo_1) took 1302 ms
+Info (20325): 2026.11.11.14:40:07 Info:
+Info (20325): 2026.11.11.14:40:07 Info: Generating on localhost:44803
+Info (20325): 2026.11.11.14:40:07 Info: Saving generation log to /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/gts_eth_subsystem_eth_srcss_gts_generation.rpt
+Info (20325): 2026.11.11.14:40:07 Info: Generated by version: 26.1.1 build 130
+Info (20325): 2026.11.11.14:40:07 Info: Starting: Create simulation model
+Info (20325): 2026.11.11.14:40:07 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: "Transforming system: gts_eth_subsystem_eth_srcss_gts"
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: "Naming system components in system: gts_eth_subsystem_eth_srcss_gts"
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: "Generating: gts_eth_subsystem_eth_srcss_gts"
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: "Generating: gts_eth_subsystem_eth_srcss_gts_intel_srcss_gts_600_vgljhpq"
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: Done "gts_eth_subsystem_eth_srcss_gts" with 2 modules, 6 files
+Warning (20326): 2026.11.11.14:40:07 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:07 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:07 Info: common/vcsmx_files.tcl
+Info (20325): 2026.11.11.14:40:07 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:07 Info: common/riviera_files.tcl
+Info (20325): 2026.11.11.14:40:07 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:07 Info: common/modelsim_files.tcl
+Info (20325): 2026.11.11.14:40:07 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:07 Info: common/xcelium_files.tcl
+Info (20325): 2026.11.11.14:40:07 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/sim/.
+Info (20325): 2026.11.11.14:40:07 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:07 Info: Finished: Create simulation model
+Info (20325): 2026.11.11.14:40:07 Info: Starting: Create simulation script
+Info (20325): 2026.11.11.14:40:07 Info: sim-script-gen --system-file=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.ip --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/sim/ --use-relative-paths=true
+Warning (20326): 2026.11.11.14:40:07 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:07 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:07 Info: synopsys/vcsmx/_device_synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:07 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:07 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2026.11.11.14:40:07 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:07 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:07 Info: aldec/run_rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:07 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:07 Info: mentor/msim_setup.tcl
+Info (20325): 2026.11.11.14:40:07 Info: mentor/run_msim_setup.tcl
+Info (20325): 2026.11.11.14:40:07 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:07 Info: xcelium/cds.lib
+Info (20325): 2026.11.11.14:40:07 Info: xcelium/hdl.var
+Info (20325): 2026.11.11.14:40:07 Info: xcelium/xcelium_setup.sh
+Info (20325): 2026.11.11.14:40:07 Info: 3 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2026.11.11.14:40:07 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts/sim/.
+Info (20325): 2026.11.11.14:40:07 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:07 Info: Finished: Create simulation script
+Info (20325): 2026.11.11.14:40:07 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:07 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.ip --block-symbol-file --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:07 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:07 Info:
+Info (20325): 2026.11.11.14:40:07 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:07 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.ip --synthesis=VERILOG --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: "Transforming system: gts_eth_subsystem_eth_srcss_gts"
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: "Naming system components in system: gts_eth_subsystem_eth_srcss_gts"
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: "Generating: gts_eth_subsystem_eth_srcss_gts"
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: "Generating: gts_eth_subsystem_eth_srcss_gts_intel_srcss_gts_600_vgljhpq"
+Info (20325): 2026.11.11.14:40:07 Info: gts_eth_subsystem_eth_srcss_gts: Done "gts_eth_subsystem_eth_srcss_gts" with 2 modules, 6 files
+Info (20325): 2026.11.11.14:40:07 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:07 Info: Generation of /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.ip (gts_eth_subsystem_eth_srcss_gts) took 1628 ms
+Info (20325): 2026.11.11.14:40:15 Info:
+Info (20325): 2026.11.11.14:40:15 Info: Generating on localhost:35951
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: chk_revision MAIN_SM7_REVB
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: chk_revision MAIN_SM7_REVB
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: Saving generation log to /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/gts_eth_subsystem_eth_gts_generation.rpt
+Info (20325): 2026.11.11.14:40:15 Info: Generated by version: 26.1.1 build 130
+Info (20325): 2026.11.11.14:40:15 Info: Starting: Create simulation model
+Info (20325): 2026.11.11.14:40:15 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: chk_revision MAIN_SM7_REVB
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: chk_revision MAIN_SM7_REVB
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts.eth_gts: pma_data_rate is 10312.5 Mbps and pma_modulation is NRZ
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts.eth_gts: Reference clock frequency: vco 10312500000 pfd 156250000.0 m 66 n 1 l 2 mul_div 1 p 12 cref 0 k 0 band TX_PLL_SLOW
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts.eth_gts: Transceiver Reference Clock should have the same source as System PLL Reference Clock
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "src_rs_req". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "src_rs_grant". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "i_tx_clk". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "i_rx_clk". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "clk_tx_div". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "clk_rec_div64". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "clk_rec_div". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "status_ports_1". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "tx_ports". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Info (20325): 2026.11.11.14:40:15 Info: n_channel_superset.hal_top_ip: Reference clock frequency: vco 10312500000 pfd 156250000.0 m 66 n 1 l 2 mul_div 1 p 12 cref 0 k 0 band TX_PLL_SLOW
+Info (20325): 2026.11.11.14:40:15 Info: one_lane_hal_top_p0.phy_hal_top: Reference clock frequency: vco 10312500000 pfd 156250000.0 m 66 n 1 l 2 mul_div 1 p 12 cref 0 k 0 band TX_PLL_SLOW
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Transforming system: gts_eth_subsystem_eth_gts"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Naming system components in system: gts_eth_subsystem_eth_gts"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_intel_eth_gts_1300_r34n36y"
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_package.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_avmm_wrapper.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_base_sec_top.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_baseprofile_mrip.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_hip.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_ip.sdc.terp
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_mrip_top.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_multiport_top.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_sip.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_sip_p1.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_top.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_cadence_gen.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_clock_mon.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_counter_based_cadence_gen.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_dp_mapping_rx.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_custom_cadence_controller.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_dp_mapping_tx.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_hw_avmm_decoder.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_jtag_avmm.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_pld45_avmm_decoder.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_pldif_mapping.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_rcfg_arb.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_rx_avst_reverse.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_reset_logic.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_tx_avst_reverse.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_xcvr_debug.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_10g_25g_adapter_rx.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_10g_25g_adapter_tx.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_adapter_rx.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_adapter_tx.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_data_mux_2to1_tx100a.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_data_rotate_8to8_tx100a.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_dcfifo_mlab.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_if2avst.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_if_filter5.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_mlab.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_reset_stretch_16a.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_rptr_gen_tx100a.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_stats_tx100a.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_stats_txpp50s.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_wptr_gen_tx100a.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_sl_adapter_rx.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_sl_adapter_tx.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_sl_avalon_to_if.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_sl_if_to_avalon.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: readme.txt
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intc_mlab.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intc_mlab6_a1r1w1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intc_sync6_m.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_accumulators.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_delay_reg.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_pointer_synchronizer.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_scfifo_mlab.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_undersized_frame_csr.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_rx_deskew.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_tx_deskew.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_word_delay_mlab.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_alt_xcvr_avmm_arb.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_alt_xcvr_arbiter.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_alt_xcvr_resync_etile.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_avmm_csr.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_base_sip_csr.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_csr.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_ptp_csr.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_ptp_csr_clock_crosser.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_ptp_csr_reg.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_eqc5h18t1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_mux4w1t1s1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_mux4w1t0s1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_mux8w1t2s1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_reset_synchronizer.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_reverse_2bits.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_reverse_3bits.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_reverse_bits.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_reverse_bytes.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_ripple16.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_sync1r1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_xcvr_resync_std.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_altera_std_synchronizer_nocut.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_and3t0.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_and3t1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_and4t1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_cnt6.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_data_sync.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_eqc15h7cfbt2.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_dual_port_sram.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_eqc19h4e1fbt2.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_eqc4h9t1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_and4t0.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_eqc5h07t1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_eqc5h0ft1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_eqc5h1ft1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_fmon8.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_lut6.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_metronome32000.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_metronome320000.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_eqc5h1bt1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_mux2w1t0s0.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_mux2w1t0s1.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_mux2w1t0s2.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_multibit_sync.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_mux2w1t1s2.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_mux4w1t0s0.v
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_packing_rearr.sv
+Info (20325): 2026.11.11.14:40:15 Info: eth_gts: intel_eth_gts_packing_tx.sv
+Info (20325): 2026.11.11.14:40:15 Info: n_channel_superset: "Generating: n_channel_superset"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_intel_eth_gts_n_channel_superset_1300_feqi4ai"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_n_channel_superset_2100_alrsluq"
+Info (20325): 2026.11.11.14:40:15 Info: hal_top_ip: "Generating: hal_top_ip"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_n_channel_superset_hal_top_2100_56lf2uy"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_hal_top_2100_kgmwl2y"
+Info (20325): 2026.11.11.14:40:15 Info: hal_top_ip: hal_top_wrapper.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: hal_top_ip: hip_sip_boundary.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: hal_top_ip: mc.sv
+Info (20325): 2026.11.11.14:40:15 Info: hal_top_ip: shared_hal_coreip.v
+Info (20325): 2026.11.11.14:40:15 Info: hal_top_ip: shared_ptp.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: hal_top_ip: chptp.sv
+Info (20325): 2026.11.11.14:40:15 Info: one_lane_hal_top_p0: "Generating: one_lane_hal_top_p0"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_hal_top_one_lane_hal_2100_6bhsfmq"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_2100_lrkca3y"
+Info (20325): 2026.11.11.14:40:15 Info: one_lane_hal_top_p0: one_lane_hal_top.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: pcs_hal_top: "Generating: pcs_hal_top"
+Info (20325): 2026.11.11.14:40:15 Info: fec_hal_top: "Generating: fec_hal_top"
+Info (20325): 2026.11.11.14:40:15 Info: pldif_hal_top: "Generating: pldif_hal_top"
+Info (20325): 2026.11.11.14:40:15 Info: ehip_hal_top: "Generating: ehip_hal_top"
+Info (20325): 2026.11.11.14:40:15 Info: phy_hal_top: "Generating: phy_hal_top"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_pcs_hal_2100_evbltja"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_fec_hal_2100_hc3odiq"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_pldif_hal_2100_yyu4l2a"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_ehip_hal_2100_2mv4beq"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_phy_hal_2100_o63ndeq"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_pcs_hal_2100_qu7ai2i"
+Info (20325): 2026.11.11.14:40:15 Info: pcs_hal_top: pcs_hal_wrapper.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: pcs_hal_top: ch4_pcs.sv
+Info (20325): 2026.11.11.14:40:15 Info: pcs_hal_top: pcs_hal_coreip.sv
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_fec_hal_2100_uj3yqbq"
+Info (20325): 2026.11.11.14:40:15 Info: fec_hal_top: fec_hal_wrapper.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: fec_hal_top: ch4_fec.sv
+Info (20325): 2026.11.11.14:40:15 Info: fec_hal_top: fec_hal_coreip.sv
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_pldif_hal_2100_37kkcsi"
+Info (20325): 2026.11.11.14:40:15 Info: pldif_hal_top: pldif_hal_wrapper.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: pldif_hal_top: pldif_hal_coreip.sv
+Info (20325): 2026.11.11.14:40:15 Info: pldif_hal_top: ch4_pldif.sv
+Info (20325): 2026.11.11.14:40:15 Info: pldif_hal_top: ch4_pldif_no_deskew.sv
+Info (20325): 2026.11.11.14:40:15 Info: pldif_hal_top: pldif_staticmux.sv
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_ehip_hal_2100_hjkjyhi"
+Info (20325): 2026.11.11.14:40:15 Info: ehip_hal_top: ehip_staticmux.sv
+Info (20325): 2026.11.11.14:40:15 Info: ehip_hal_top: ehip_hal_wrapper.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: ehip_hal_top: ehip_hal_coreip.sv
+Info (20325): 2026.11.11.14:40:15 Info: ehip_hal_top: ch4_ehip.sv
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_phy_hal_2100_wl46owi"
+Info (20325): 2026.11.11.14:40:15 Info: phy_hal_top: phy_staticmux.sv
+Info (20325): 2026.11.11.14:40:15 Info: phy_hal_top: phy_hal_wrapper.sv.terp
+Info (20325): 2026.11.11.14:40:15 Info: phy_hal_top: phy_hal_coreip.sv
+Info (20325): 2026.11.11.14:40:15 Info: phy_hal_top: ch4_phy.sv
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: Done "gts_eth_subsystem_eth_gts" with 18 modules, 184 files
+Warning (20326): 2026.11.11.14:40:15 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:15 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:15 Info: common/riviera_files.tcl
+Info (20325): 2026.11.11.14:40:15 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:15 Info: common/vcsmx_files.tcl
+Info (20325): 2026.11.11.14:40:15 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:15 Info: common/xcelium_files.tcl
+Info (20325): 2026.11.11.14:40:15 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:15 Info: common/modelsim_files.tcl
+Info (20325): 2026.11.11.14:40:15 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/sim/.
+Info (20325): 2026.11.11.14:40:15 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:15 Info: Finished: Create simulation model
+Info (20325): 2026.11.11.14:40:15 Info: Starting: Create simulation script
+Info (20325): 2026.11.11.14:40:15 Info: sim-script-gen --system-file=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.ip --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/sim/ --use-relative-paths=true
+Warning (20326): 2026.11.11.14:40:15 Warning: Skipping generation of synopsys/vcs/vcs_setup.sh since VCS 2-step flow is not supported for specified device family. Use VCS-MX or another supported simulator.
+Info (20325): 2026.11.11.14:40:15 Info: Generating the following file(s) for RIVIERA simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:15 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:15 Info: aldec/run_rivierapro_setup.tcl
+Info (20325): 2026.11.11.14:40:15 Info: Generating the following file(s) for VCSMX simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:15 Info: synopsys/vcsmx/_device_synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:15 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2026.11.11.14:40:15 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2026.11.11.14:40:15 Info: Generating the following file(s) for XCELIUM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:15 Info: xcelium/cds.lib
+Info (20325): 2026.11.11.14:40:15 Info: xcelium/hdl.var
+Info (20325): 2026.11.11.14:40:15 Info: xcelium/xcelium_setup.sh
+Info (20325): 2026.11.11.14:40:15 Info: 12 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2026.11.11.14:40:15 Info: Generating the following file(s) for MODELSIM simulator in /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/sim/ directory:
+Info (20325): 2026.11.11.14:40:15 Info: mentor/msim_setup.tcl
+Info (20325): 2026.11.11.14:40:15 Info: mentor/run_msim_setup.tcl
+Info (20325): 2026.11.11.14:40:15 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts/sim/.
+Info (20325): 2026.11.11.14:40:15 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2026.11.11.14:40:15 Info: Finished: Create simulation script
+Info (20325): 2026.11.11.14:40:15 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:15 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.ip --block-symbol-file --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: chk_revision MAIN_SM7_REVB
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: chk_revision MAIN_SM7_REVB
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts.eth_gts: pma_data_rate is 10312.5 Mbps and pma_modulation is NRZ
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts.eth_gts: Reference clock frequency: vco 10312500000 pfd 156250000.0 m 66 n 1 l 2 mul_div 1 p 12 cref 0 k 0 band TX_PLL_SLOW
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts.eth_gts: Transceiver Reference Clock should have the same source as System PLL Reference Clock
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "src_rs_req". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "src_rs_grant". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "i_tx_clk". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "i_rx_clk". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "clk_tx_div". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "clk_rec_div64". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "clk_rec_div". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "status_ports_1". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "tx_ports". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Info (20325): 2026.11.11.14:40:15 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:15 Info:
+Info (20325): 2026.11.11.14:40:15 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:15 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.ip --synthesis=VERILOG --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: chk_revision MAIN_SM7_REVB
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: chk_revision MAIN_SM7_REVB
+Info (20325): 2026.11.11.14:40:15 Info: Debug: device=A5ED065BB32AE4S  die_types=MAIN_SM7 device_revision=MAIN_SM7_REVB die_revision=MAIN_SM7_REVB speed_grade=4
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts.eth_gts: pma_data_rate is 10312.5 Mbps and pma_modulation is NRZ
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts.eth_gts: Reference clock frequency: vco 10312500000 pfd 156250000.0 m 66 n 1 l 2 mul_div 1 p 12 cref 0 k 0 band TX_PLL_SLOW
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts.eth_gts: Transceiver Reference Clock should have the same source as System PLL Reference Clock
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "src_rs_req". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "src_rs_grant". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "i_tx_clk". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "i_rx_clk". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "clk_tx_div". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "clk_rec_div64". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "clk_rec_div". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "status_ports_1". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Warning (20326): 2026.11.11.14:40:15 Warning: gts_eth_subsystem_eth_gts.interface_requirements: Your system is missing the required interface "tx_ports". Either export the interface, or edit your definitions in the Interface Requirements tab."
+Info (20325): 2026.11.11.14:40:15 Info: n_channel_superset.hal_top_ip: Reference clock frequency: vco 10312500000 pfd 156250000.0 m 66 n 1 l 2 mul_div 1 p 12 cref 0 k 0 band TX_PLL_SLOW
+Info (20325): 2026.11.11.14:40:15 Info: one_lane_hal_top_p0.phy_hal_top: Reference clock frequency: vco 10312500000 pfd 156250000.0 m 66 n 1 l 2 mul_div 1 p 12 cref 0 k 0 band TX_PLL_SLOW
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Transforming system: gts_eth_subsystem_eth_gts"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Naming system components in system: gts_eth_subsystem_eth_gts"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_intel_eth_gts_1300_r34n36y"
+Info (20325): 2026.11.11.14:40:15 Info: ("DIe_type:MAIN_SM7")
+Info (20325): 2026.11.11.14:40:15 Info: n_channel_superset: "Generating: n_channel_superset"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_intel_eth_gts_n_channel_superset_1300_feqi4ai"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_n_channel_superset_2100_alrsluq"
+Info (20325): 2026.11.11.14:40:15 Info: hal_top_ip: "Generating: hal_top_ip"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_n_channel_superset_hal_top_2100_56lf2uy"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_hal_top_2100_kgmwl2y"
+Info (20325): 2026.11.11.14:40:15 Info: one_lane_hal_top_p0: "Generating: one_lane_hal_top_p0"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_hal_top_one_lane_hal_2100_6bhsfmq"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_2100_lrkca3y"
+Info (20325): 2026.11.11.14:40:15 Info: pcs_hal_top: "Generating: pcs_hal_top"
+Info (20325): 2026.11.11.14:40:15 Info: fec_hal_top: "Generating: fec_hal_top"
+Info (20325): 2026.11.11.14:40:15 Info: pldif_hal_top: "Generating: pldif_hal_top"
+Info (20325): 2026.11.11.14:40:15 Info: ehip_hal_top: "Generating: ehip_hal_top"
+Info (20325): 2026.11.11.14:40:15 Info: phy_hal_top: "Generating: phy_hal_top"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_pcs_hal_2100_evbltja"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_fec_hal_2100_hc3odiq"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_pldif_hal_2100_yyu4l2a"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_ehip_hal_2100_2mv4beq"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_one_lane_hal_phy_hal_2100_o63ndeq"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_pcs_hal_2100_qu7ai2i"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_fec_hal_2100_uj3yqbq"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_pldif_hal_2100_37kkcsi"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_ehip_hal_2100_hjkjyhi"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: "Generating: gts_eth_subsystem_eth_gts_phy_hal_2100_wl46owi"
+Info (20325): 2026.11.11.14:40:15 Info: gts_eth_subsystem_eth_gts: Done "gts_eth_subsystem_eth_gts" with 18 modules, 187 files
+Info (20325): 2026.11.11.14:40:15 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:15 Info: Generation of /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.ip (gts_eth_subsystem_eth_gts) took 6698 ms
+Info (20325): 2026.11.11.14:40:15 Info: Finished: Platform Designer system generation
+Info (20325): ***************************************************************
+Info (20325): Quartus is a registered trademark of Altera Corporation in the
+Info (20325): US and other countries.  Portions of the Quartus Prime software
+Info (20325): code, and other portions of the code included in this download
+Info (20325): or on this DVD, are licensed to Altera Corporation and are the
+Info (20325): copyrighted property of third parties. For license details,
+Info (20325): refer to the Altera Software License Subscription Agreements
+Info (20325): on the Quartus Prime software download page.
+Info (20325): ***************************************************************
+Info (20325): 2026.11.11.14:40:26 Info: Saving generation log to /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy/mipi_subsystem_mipi_dphy_generation.rpt
+Info (20325): 2026.11.11.14:40:26 Info: Generated by version: 26.1.1 build 130
+Info (20325): 2026.11.11.14:40:26 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:26 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy.ip --block-symbol-file --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:29 Info: mipi_subsystem_mipi_dphy.mipi_dphy: Configuring this IP for device OPN:A5ED065BB32AE4S FAMILY:Agilex 5 SPEEDGRADE:4.
+Warning (20326): 2026.11.11.14:40:29 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: No loopback pair found for RX link 0. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:29 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: No loopback pair found for RX link 1. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:29 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: No loopback pair found for RX link 0. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:29 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: No loopback pair found for RX link 1. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:29 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: Skew Calibration should be enabled for bitrates above 1500 Mbps.
+Warning (20326): 2026.11.11.14:40:29 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: Skew Calibration should be enabled for bitrates above 1500 Mbps.
+Info (20325): 2026.11.11.14:40:30 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2026.11.11.14:40:30 Info:
+Info (20325): 2026.11.11.14:40:30 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:30 Info: qsys-generate /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy.ip --synthesis=VERILOG --output-directory=/home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy --family="Agilex 5" --part=A5ED065BB32AE4S
+Info (20325): 2026.11.11.14:40:33 Info: mipi_subsystem_mipi_dphy.mipi_dphy: Configuring this IP for device OPN:A5ED065BB32AE4S FAMILY:Agilex 5 SPEEDGRADE:4.
+Warning (20326): 2026.11.11.14:40:33 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: No loopback pair found for RX link 0. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:33 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: No loopback pair found for RX link 1. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:33 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: No loopback pair found for RX link 0. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:33 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: No loopback pair found for RX link 1. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:33 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: Skew Calibration should be enabled for bitrates above 1500 Mbps.
+Warning (20326): 2026.11.11.14:40:33 Warning: mipi_subsystem_mipi_dphy.mipi_dphy: Skew Calibration should be enabled for bitrates above 1500 Mbps.
+Info (20325): 2026.11.11.14:40:33 Info: mipi_subsystem_mipi_dphy: "Transforming system: mipi_subsystem_mipi_dphy"
+Info (20325): 2026.11.11.14:40:34 Info: mipi_dphy: Configuring this IP for device OPN:A5ED065BB32AE4S FAMILY:Agilex 5 SPEEDGRADE:4.
+Warning (20326): 2026.11.11.14:40:34 Warning: mipi_dphy: No loopback pair found for RX link 0. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:34 Warning: mipi_dphy: No loopback pair found for RX link 1. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:34 Warning: mipi_dphy: No loopback pair found for RX link 0. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:34 Warning: mipi_dphy: No loopback pair found for RX link 1. Add a TX link with same bitrate & number of data lanes. With loopback enabled and no loopback pair, this link is not being simulated properly.
+Warning (20326): 2026.11.11.14:40:34 Warning: mipi_dphy: Skew Calibration should be enabled for bitrates above 1500 Mbps.
+Warning (20326): 2026.11.11.14:40:34 Warning: mipi_dphy: Skew Calibration should be enabled for bitrates above 1500 Mbps.
+Info (20325): 2026.11.11.14:40:34 Info: mipi_subsystem_mipi_dphy: "Naming system components in system: mipi_subsystem_mipi_dphy"
+Info (20325): 2026.11.11.14:40:34 Info: mipi_subsystem_mipi_dphy: "Processing generation queue"
+Info (20325): 2026.11.11.14:40:34 Info: mipi_subsystem_mipi_dphy: "Generating: mipi_subsystem_mipi_dphy"
+Info (20325): 2026.11.11.14:40:34 Info: mipi_subsystem_mipi_dphy: "Generating: mipi_subsystem_mipi_dphy_mipi_dphy_621_osli4iq"
+Info (20325): 2026.11.11.14:40:34 Info: mipi_subsystem_mipi_dphy: "Generating: mipi_subsystem_mipi_dphy_dphy_arch_fp_621_bgpd2sy"
+Info (20325): used_links: 1 1 0 0 0 0 0
+Info (20325): data_lanes: 4 4 0 0 0 0 0
+Info (20325): link_roles: 0 0 2 2 2 2 2
+Info (20325): 2026.11.11.14:40:34 Info: mipi_subsystem_mipi_dphy: Done "mipi_subsystem_mipi_dphy" with 3 modules, 55 files
+Info (20325): 2026.11.11.14:40:34 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2026.11.11.14:40:34 Info: Generation of /home/sykojo/diplomka/timepix-holoscan/fpga/altera/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE/rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy.ip (mipi_subsystem_mipi_dphy) took 7905 ms
+Info (11131): Completed upgrading IP component intel_eth_gts with file "../rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_gts.ip"
+Info (11131): Completed upgrading IP component intel_srcss_gts with file "../rtl/user/ip/gts_eth_subsystem/gts_eth_subsystem_eth_srcss_gts.ip"
+Info (11131): Completed upgrading IP component intel_vvp_fifo with file "../rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_0.ip"
+Info (11131): Completed upgrading IP component intel_vvp_fifo with file "../rtl/user/ip/mipi_hsb_pipeline_subsystem/mipi_hsb_pipeline_subsystem_vvp_fifo_1.ip"
+Info (11131): Completed upgrading IP component intel_mipi_csi2 with file "../rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_0.ip"
+Info (11131): Completed upgrading IP component intel_mipi_csi2 with file "../rtl/user/ip/mipi_subsystem/mipi_subsystem_intel_mipi_csi2_1.ip"
+Info (11131): Completed upgrading IP component mipi_dphy with file "../rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_dphy.ip"
+Info (11131): Completed upgrading IP component mm_ccb with file "../rtl/user/ip/mipi_subsystem/mipi_subsystem_mipi_mm_ccb.ip"
+Info (23030): Evaluation of Tcl script /opt/altera_pro/26.1.1/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 59 warnings
+    Info: Peak virtual memory: 1576 megabytes
+    Info: Processing ended: Wed Nov 11 14:40:35 2026
+    Info: Elapsed time: 00:01:16
+    Info: System process ID: 4156961
+
+

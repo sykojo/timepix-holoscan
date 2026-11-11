@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip name="GTS Ethernet Hard IP">
+ <timestamp>2026-11-11T14:39:36.630493387</timestamp>
+ <file></file>
+ <old_version>12.0.0</old_version>
+ <new_version>13.0.0</new_version>
+ <changes>
+  <change>13.0.0</change>
+  <change></change>
+  <change></change>
+  <change>Interface name matching with port names </change>
+ </changes>
+</ip>
+
+<ip name="GTS Reset Sequencer IP">
+ <timestamp>2026-11-11T14:39:37.477555880</timestamp>
+ <file></file>
+ <old_version>5.0.1</old_version>
+ <new_version>6.0.0</new_version>
+ <changes>
+  <change>6.0.0</change>
+  <change>clkrxx related ports width were modified </change>
+  <change> Clkrx workaround ports updated </change>
+ </changes>
+</ip>
+
+<ip name="Video Streaming FIFO">
+ <timestamp>2026-11-11T14:39:37.801249244</timestamp>
+ <file></file>
+ <old_version>24.4.0</old_version>
+ <new_version>24.5.0</new_version>
+ <changes>
+  <change>24.5.0</change>
+  <change>Updated documentation link</change>
+ </changes>
+</ip>
+
+<ip name="Video Streaming FIFO">
+ <timestamp>2026-11-11T14:39:38.053103863</timestamp>
+ <file></file>
+ <old_version>24.4.0</old_version>
+ <new_version>24.5.0</new_version>
+ <changes>
+  <change>24.5.0</change>
+  <change>Updated documentation link</change>
+ </changes>
+</ip>
+
+<ip name="MIPI CSI-2 IP">
+ <timestamp>2026-11-11T14:39:38.352497704</timestamp>
+ <file></file>
+ <old_version>3.1.0</old_version>
+ <new_version>4.0.0</new_version>
+ <changes>
+  <change>4.0.0</change>
+  <change>Added larger options to buffer size parameter and added user guidance message.</change>
+  <change>No port changes.</change>
+ </changes>
+</ip>
+
+<ip name="MIPI CSI-2 IP">
+ <timestamp>2026-11-11T14:39:38.636423026</timestamp>
+ <file></file>
+ <old_version>3.1.0</old_version>
+ <new_version>4.0.0</new_version>
+ <changes>
+  <change>4.0.0</change>
+  <change>Added larger options to buffer size parameter and added user guidance message.</change>
+  <change>No port changes.</change>
+ </changes>
+</ip>
+
+<ip name="MIPI DPHY IP">
+ <timestamp>2026-11-11T14:39:41.877450208</timestamp>
+ <file></file>
+ <old_version>6.2.0</old_version>
+ <new_version>6.2.1</new_version>
+ <changes>
+  <change>6.2.1</change>
+  <change>Change document to Altera source</change>
+ </changes>
+</ip>
+
+<ip name="Avalon Memory Mapped Clock Crossing Bridge IP">
+ <timestamp>2026-11-11T14:39:42.241331392</timestamp>
+ <file></file>
+ <old_version>19.4.0</old_version>
+ <new_version>19.4.1</new_version>
+</ip>
