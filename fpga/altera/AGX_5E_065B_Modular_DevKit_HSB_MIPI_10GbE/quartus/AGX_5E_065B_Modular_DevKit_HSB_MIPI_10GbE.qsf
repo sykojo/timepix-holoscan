@@ -31,6 +31,7 @@ set_instance_assignment -name PARTITION_COLOUR 4285529948 -to AGX_5E_065B_Modula
 set_instance_assignment -name PARTITION_COLOUR 4294939049 -to auto_fab_0 -entity AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE
 set_global_assignment -name NUMBER_OF_SLAVE_DEVICE 2
 set_global_assignment -name LAST_QUARTUS_VERSION "26.1.1 Pro Edition"
+set_global_assignment -name VHDL_FILE ../rtl/test_counter.vhd
 set_global_assignment -name SOURCE_TCL_SCRIPT_FILE shell/board_subsystem.qsf
 set_global_assignment -name SOURCE_TCL_SCRIPT_FILE shell/clock_subsystem.qsf
 set_global_assignment -name SOURCE_TCL_SCRIPT_FILE shell/design.qsf
@@ -47,3 +48,5 @@ set_global_assignment -name SDC_FILE ../sdc/shell/jtag.sdc
 set_global_assignment -name SDC_FILE ../sdc/shell/board_subsystem.sdc
 set_global_assignment -name SDC_FILE ../sdc/user/mipi_subsystem.sdc
 set_global_assignment -name SDC_FILE ../sdc/user/hsb_subsystem.sdc
+set_global_assignment -name IP_FILE ../rtl/ip/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE_qsys/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE_qsys_test_counter_0.ip
+set_global_assignment -name IP_FILE ../rtl/ip/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE_qsys/AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE_qsys_test_counter_1.ip

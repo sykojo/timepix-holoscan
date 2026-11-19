@@ -33,19 +33,19 @@ module AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE
       i2c_0_scl,
       i2c_0_sda,
       i2c_1_scl,
-      i2c_1_sda,
+      i2c_1_sda
 
       // Code auto-generated from script: mipi_subsystem
-      LINK0_dphy_io_dphy_link_d_p,
-      LINK0_dphy_io_dphy_link_d_n,
-      LINK0_dphy_io_dphy_link_c_p,
-      LINK0_dphy_io_dphy_link_c_n,
-      LINK1_dphy_io_dphy_link_d_p,
-      LINK1_dphy_io_dphy_link_d_n,
-      LINK1_dphy_io_dphy_link_c_p,
-      LINK1_dphy_io_dphy_link_c_n,
-      mipi_ref_clk_0,
-      mipi_rzq
+      //LINK0_dphy_io_dphy_link_d_p,
+      //LINK0_dphy_io_dphy_link_d_n,
+      //LINK0_dphy_io_dphy_link_c_p,
+      //LINK0_dphy_io_dphy_link_c_n,
+      //LINK1_dphy_io_dphy_link_d_p,
+      //LINK1_dphy_io_dphy_link_d_n,
+      //LINK1_dphy_io_dphy_link_c_p,
+      //LINK1_dphy_io_dphy_link_c_n
+      //mipi_ref_clk_0,
+      //mipi_rzq
   );
 
   input wire        clk_100_mhz;
@@ -67,16 +67,16 @@ module AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE
    inout  wire    i2c_1_sda;
 
    // Code auto-generated from script: mipi_subsystem
-   input  wire  [3:0]  LINK0_dphy_io_dphy_link_d_p;
-   input  wire  [3:0]  LINK0_dphy_io_dphy_link_d_n;
-   input  wire    LINK0_dphy_io_dphy_link_c_p;
-   input  wire    LINK0_dphy_io_dphy_link_c_n;
-   input  wire  [3:0]  LINK1_dphy_io_dphy_link_d_p;
-   input  wire  [3:0]  LINK1_dphy_io_dphy_link_d_n;
-   input  wire    LINK1_dphy_io_dphy_link_c_p;
-   input  wire    LINK1_dphy_io_dphy_link_c_n;
-   input  wire    mipi_ref_clk_0;
-   input  wire    mipi_rzq;
+   //input  wire  [3:0]  LINK0_dphy_io_dphy_link_d_p;
+   //input  wire  [3:0]  LINK0_dphy_io_dphy_link_d_n;
+   //input  wire    LINK0_dphy_io_dphy_link_c_p;
+   //input  wire    LINK0_dphy_io_dphy_link_c_n;
+   //input  wire  [3:0]  LINK1_dphy_io_dphy_link_d_p;
+   //input  wire  [3:0]  LINK1_dphy_io_dphy_link_d_n;
+   //input  wire    LINK1_dphy_io_dphy_link_c_p;
+   //input  wire    LINK1_dphy_io_dphy_link_c_n;
+   //input  wire    mipi_ref_clk_0;
+   //input  wire    mipi_rzq;
 
    // Code auto-generated from script: gts_eth_subsystem
    wire    o_rst_ack_n;
@@ -101,8 +101,8 @@ module AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE
    wire    o_i2c_1_sda_en;
 
    // Code auto-generated from script: mipi_subsystem
-   wire  [31:0]  mipi_pio_0_in;
-   wire  [31:0]  mipi_pio_0_out;
+   //wire  [31:0]  mipi_pio_0_in;
+   //wire  [31:0]  mipi_pio_0_out;
 
    // Code auto-generated from script: gts_eth_subsystem
    assign sfp_tx_disable = "1'b0";
@@ -118,13 +118,13 @@ module AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE
    assign i2c_1_sda = o_i2c_1_sda_en ? 1'bz : 1'b0;
 
    // Code auto-generated from script: mipi_subsystem
-   assign mipi_pio_0_in[31:12] = 20'b0;
-   assign mipi_pio_0_in[11:8] = 4'b0001;
-   assign mipi_pio_0_in[7:4] = 4'b0001;
-   assign mipi_pio_0_in[3] = 1'b0;
-   assign mipi_pio_0_in[2] = 1'b1;
-   assign mipi_pio_0_in[1] = 1'b0;
-   assign mipi_pio_0_in[0] = 1'b1;
+   //assign mipi_pio_0_in[31:12] = 20'b0;
+   //assign mipi_pio_0_in[11:8] = 4'b0001;
+   //assign mipi_pio_0_in[7:4] = 4'b0001;
+   //assign mipi_pio_0_in[3] = 1'b0;
+   //assign mipi_pio_0_in[2] = 1'b1;
+   //assign mipi_pio_0_in[1] = 1'b0;
+   //assign mipi_pio_0_in[0] = 1'b1;
 
   AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE_qsys u0 (
     .board_subsystem_i_clk_clk             (clk_100_mhz),
@@ -162,21 +162,21 @@ module AGX_5E_065B_Modular_DevKit_HSB_MIPI_10GbE
        .hsb_subsystem_c_i2c_1_i_i2c_scl  (i_i2c_1_scl),
        .hsb_subsystem_c_i2c_1_i_i2c_sda  (i_i2c_1_sda),
        .hsb_subsystem_c_i2c_1_o_i2c_scl_en  (o_i2c_1_scl_en),
-       .hsb_subsystem_c_i2c_1_o_i2c_sda_en  (o_i2c_1_sda_en),
+       .hsb_subsystem_c_i2c_1_o_i2c_sda_en  (o_i2c_1_sda_en)
 
       // Code auto-generated from script: mipi_subsystem
-       .mipi_subsystem_c_ext_conn_in_port  (mipi_pio_0_in),
-       .mipi_subsystem_c_ext_conn_out_port  (mipi_pio_0_out),
-       .mipi_subsystem_c_LINK0_dphy_io_dphy_link_dp  (LINK0_dphy_io_dphy_link_d_p),
-       .mipi_subsystem_c_LINK0_dphy_io_dphy_link_dn  (LINK0_dphy_io_dphy_link_d_n),
-       .mipi_subsystem_c_LINK0_dphy_io_dphy_link_cp  (LINK0_dphy_io_dphy_link_c_p),
-       .mipi_subsystem_c_LINK0_dphy_io_dphy_link_cn  (LINK0_dphy_io_dphy_link_c_n),
-       .mipi_subsystem_c_LINK1_dphy_io_dphy_link_dp  (LINK1_dphy_io_dphy_link_d_p),
-       .mipi_subsystem_c_LINK1_dphy_io_dphy_link_dn  (LINK1_dphy_io_dphy_link_d_n),
-       .mipi_subsystem_c_LINK1_dphy_io_dphy_link_cp  (LINK1_dphy_io_dphy_link_c_p),
-       .mipi_subsystem_c_LINK1_dphy_io_dphy_link_cn  (LINK1_dphy_io_dphy_link_c_n),
-       .mipi_subsystem_i_clk_ref_clk  (mipi_ref_clk_0),
-       .mipi_subsystem_c_rzq_rzq  (mipi_rzq)
+       //.mipi_subsystem_c_ext_conn_in_port  (mipi_pio_0_in),
+       //.mipi_subsystem_c_ext_conn_out_port  (mipi_pio_0_out),
+       //.mipi_subsystem_c_LINK0_dphy_io_dphy_link_dp  (LINK0_dphy_io_dphy_link_d_p),
+       //.mipi_subsystem_c_LINK0_dphy_io_dphy_link_dn  (LINK0_dphy_io_dphy_link_d_n),
+       //.mipi_subsystem_c_LINK0_dphy_io_dphy_link_cp  (LINK0_dphy_io_dphy_link_c_p),
+       //.mipi_subsystem_c_LINK0_dphy_io_dphy_link_cn  (LINK0_dphy_io_dphy_link_c_n),
+       //.mipi_subsystem_c_LINK1_dphy_io_dphy_link_dp  (LINK1_dphy_io_dphy_link_d_p),
+       //.mipi_subsystem_c_LINK1_dphy_io_dphy_link_dn  (LINK1_dphy_io_dphy_link_d_n),
+       //.mipi_subsystem_c_LINK1_dphy_io_dphy_link_cp  (LINK1_dphy_io_dphy_link_c_p),
+       //.mipi_subsystem_c_LINK1_dphy_io_dphy_link_cn  (LINK1_dphy_io_dphy_link_c_n),
+       //.mipi_subsystem_i_clk_ref_clk  (mipi_ref_clk_0),
+       //.mipi_subsystem_c_rzq_rzq  (mipi_rzq)
   );
 
 endmodule
